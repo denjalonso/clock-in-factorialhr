@@ -11,3 +11,12 @@ Steps:
 5. Watch it all run!
 
 Woo!
+
+## MacOs automator
+
+[On login](https://github.com/denjalonso/dotfiles/tree/master/on-login) runs `npm run cy:run`:
+
+1. Open Automator
+2. Add `cd ~/code/to-clock-factorialhr && ~/n/bin/npm run cy:run` to run-on-login-script.app
+
+
